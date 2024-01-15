@@ -1,0 +1,14 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libclang_sys-29b8de21781c83ac.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/support.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/link.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/macros.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/common.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/dynamic.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libclang_sys-29b8de21781c83ac.rlib: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/support.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/link.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/macros.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/common.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/dynamic.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/clang_sys-29b8de21781c83ac.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/support.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/link.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/macros.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/common.rs /Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/dynamic.rs
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/support.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.7.0/src/link.rs:
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/macros.rs:
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/common.rs:
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out/dynamic.rs:
+
+# env-dep:OUT_DIR=/Users/brianyuan/Developer/rust/RustyMusic/target/debug/build/clang-sys-7f19aa43867e2f37/out

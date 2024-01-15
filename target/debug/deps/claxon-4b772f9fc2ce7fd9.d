@@ -1,0 +1,11 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libclaxon-4b772f9fc2ce7fd9.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/crc.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/error.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/frame.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/input.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/metadata.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/subframe.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/claxon-4b772f9fc2ce7fd9.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/crc.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/error.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/frame.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/input.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/metadata.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/subframe.rs
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/crc.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/error.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/frame.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/input.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/metadata.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/claxon-0.4.3/src/subframe.rs:
