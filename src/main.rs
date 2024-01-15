@@ -14,6 +14,23 @@ fn read_file(file_path: &PathBuf) -> Result<Vec<u8>, Box<dyn Error>> {
     Ok(buffer)
 }
 
+fn play_mp3(file_path: &PathBuf) -> Result<(), Box<dyn Error>> {
+    let buffer = read_file(file_path)?;
+
+    // Create an output stream and a sink
+    let (_stream, stream_handle) = OutputStream::try_default()?;
+    let sink = Sink::try_new(&stream_handle)?;
+
+    // Decode the MP3 and append it to the sink
+    let source = Decoder::new(std::io::Cursor::new(buffer))?;
+    sink.append(source);
+
+    // The sound plays in a separate thread
+    sink.sleep_until_end();
+
+    Ok(())
+}
+
 fn main() -> Result<(), Box<dyn Error>> {
     let args: Vec<String> = std::env::args().collect();
     if args.len() != 2 {
