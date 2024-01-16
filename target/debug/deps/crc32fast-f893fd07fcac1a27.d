@@ -1,0 +1,11 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libcrc32fast-f893fd07fcac1a27.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/baseline.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/combine.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/specialized/mod.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/table.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libcrc32fast-f893fd07fcac1a27.rlib: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/baseline.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/combine.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/specialized/mod.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/table.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/crc32fast-f893fd07fcac1a27.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/baseline.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/combine.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/specialized/mod.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/table.rs
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/baseline.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/combine.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/specialized/mod.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.3.2/src/table.rs:

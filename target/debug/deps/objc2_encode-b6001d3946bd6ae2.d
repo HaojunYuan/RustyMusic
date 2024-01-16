@@ -1,0 +1,10 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libobjc2_encode-b6001d3946bd6ae2.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/encoding.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/encoding_box.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/helper.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/parse.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/static_str.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/objc2_encode-b6001d3946bd6ae2.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/encoding.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/encoding_box.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/helper.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/parse.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/static_str.rs
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/encoding.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/encoding_box.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/helper.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/parse.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-3.0.0/src/static_str.rs:

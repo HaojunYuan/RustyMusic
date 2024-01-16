@@ -1,54 +1,122 @@
-use std::error::Error;
-use std::fs::File;
-use std::io::Read;
-use std::path::PathBuf;
-use std::thread;
-use std::time::Duration;
+use eframe::egui;
+use rodio::{Decoder, OutputStream, Sink};  
+use std::{fs::File, io::Read, path::PathBuf, thread};
 
-use rodio::{Decoder, OutputStream, Sink};
-
-fn read_file(file_path: &PathBuf) -> Result<Vec<u8>, Box<dyn Error>> {
-    let mut file = File::open(file_path)?;
-    let mut buffer = Vec::new();
-    file.read_to_end(&mut buffer)?;
-    Ok(buffer)
+struct Player {
+    mp3_folder: PathBuf,
+    songs: Vec<PathBuf>,
+    current_song: Option<PathBuf>,
+    current_song_index: usize,
+    stream: Option<OutputStream>,
+    sink: Option<Sink>,
+    is_playing: bool
 }
 
-fn play_mp3(file_path: &PathBuf) -> Result<(), Box<dyn Error>> {
-    let buffer = read_file(file_path)?;
-
-    // Create an output stream and a sink
-    let (_stream, stream_handle) = OutputStream::try_default()?;
-    let sink = Sink::try_new(&stream_handle)?;
-
-    // Decode the MP3 and append it to the sink
-    let source = Decoder::new(std::io::Cursor::new(buffer))?;
-    sink.append(source);
-
-    // The sound plays in a separate thread
-    sink.sleep_until_end();
-
-    Ok(())
+impl Default for Player {
+    fn default() -> Self {
+        Self {
+            mp3_folder: PathBuf::from("./mp3"),
+            songs: vec![], 
+            current_song: None,
+            current_song_index: 0,
+            stream: None,
+            sink: None,
+            is_playing: false,
+        }
+    }
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
-    let args: Vec<String> = std::env::args().collect();
-    if args.len() != 2 {
-        eprintln!("Usage: {} <mp3_file>", args[0]);
-        std::process::exit(1);
+impl Player {
+    fn scan_mp3s(&mut self) {
+        if let Ok(songs) = std::fs::read_dir(&self.mp3_folder) {
+            self.songs = songs
+                .map(|f| f.unwrap().path())
+                .collect();
+        }
     }
 
-    let mp3_file = PathBuf::from(&args[1]);
-
-    if !mp3_file.exists() {
-        eprintln!("File not found: {:?}", mp3_file);
-        std::process::exit(1);
+    fn setup_audio(&mut self) {
+        let (stream, stream_handle) = OutputStream::try_default().unwrap();
+        self.stream = Some(stream);
+        self.sink = Some(Sink::try_new(&stream_handle).unwrap());
     }
 
-    play_mp3(&mp3_file)?;
+    fn read_file(&self, file_path: &PathBuf) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
+        let mut file = File::open(file_path)?;
+        let mut buffer = Vec::new();
+        file.read_to_end(&mut buffer)?;
+        Ok(buffer)
+    }
+        
+    fn play_song(&mut self, song: &PathBuf) {
+        let buffer = self.read_file(song).unwrap();
+        let source = Decoder::new(std::io::Cursor::new(buffer)).unwrap();
+        self.sink.as_mut().unwrap().clear();
+        self.sink.as_mut().unwrap().append(source);
+        self.sink.as_mut().unwrap().play();
+        self.is_playing = true;
+    }
 
-    // Sleep to keep the program alive while the audio plays
-    thread::sleep(Duration::from_secs(10));
+    fn pause_resume(&mut self) {
+        if let Some(sink) = self.sink.as_mut() {
+            if self.is_playing {
+                sink.pause();
+            } else {
+                sink.play();
+            }
+            self.is_playing = !self.is_playing;
+        }
+    }
+}
 
-    Ok(())
+impl eframe::App for Player {
+    fn update(&mut self, ctx: &egui::Context, frame: &mut eframe::Frame) {
+        if self.stream.is_none() {
+            self.setup_audio();
+        }
+
+        self.scan_mp3s();
+
+        if let Some(selected_song) = self.songs.get(self.current_song_index).cloned() {
+            egui::CentralPanel::default().show(ctx, |ui| {
+                ui.vertical(|ui| {
+                    ui.heading("Song List");
+
+                    for (index, song) in self.songs.iter().enumerate() {
+                        ui.selectable_value(
+                            &mut self.current_song_index,
+                            index,
+                            song.file_name()
+                                .map(|name| name.to_string_lossy().to_string())
+                                .unwrap_or_else(|| String::from("Unknown")),
+                        );
+                    }
+                });
+
+                ui.label("Now Playing:");
+                ui.label(selected_song.file_name().unwrap().to_string_lossy());
+                if ui.button("Play").clicked() {
+                    self.play_song(&selected_song);
+                }
+
+                if let Some(sink) = self.sink.as_ref() {
+                    let label = if self.is_playing { "Pause" } else { "Resume" };
+                    if ui.button(label).clicked() {
+                        self.pause_resume();
+                    }
+                }
+            });
+        }
+    }
+}
+
+
+
+fn main() {
+    let native_options = eframe::NativeOptions::default();
+
+    if let Err(err) = eframe::run_native("Music Player", native_options, Box::new(|cc| Box::new(Player::default()))) {
+        eprintln!("Error: {}", err);
+        std::process::exit(1);
+    }
 }

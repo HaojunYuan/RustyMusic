@@ -1,0 +1,17 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libunic_ucd_bidi-79e3db7a2b823090.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/pkg_info.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_class.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_control.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_mirrored.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_class.rsv /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_control.rsv /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_mirrored.rsv /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/unicode_version.rsv
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/unic_ucd_bidi-79e3db7a2b823090.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/pkg_info.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_class.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_control.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_mirrored.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_class.rsv /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_control.rsv /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_mirrored.rsv /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/unicode_version.rsv
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/pkg_info.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_class.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_control.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/bidi_mirrored.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_class.rsv:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_control.rsv:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/bidi_mirrored.rsv:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-ucd-bidi-0.9.0/src/../tables/unicode_version.rsv:
+
+# env-dep:CARGO_PKG_DESCRIPTION=UNIC — Unicode Character Database — Bidi Properties
+# env-dep:CARGO_PKG_NAME=unic-ucd-bidi
+# env-dep:CARGO_PKG_VERSION=0.9.0

@@ -1,0 +1,10 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libowned_ttf_parser-27fd7d0a45d33842.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/convert.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/owned.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/preparse.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libowned_ttf_parser-27fd7d0a45d33842.rlib: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/convert.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/owned.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/preparse.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/owned_ttf_parser-27fd7d0a45d33842.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/convert.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/owned.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/preparse.rs
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/convert.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/owned.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.20.0/src/preparse.rs:

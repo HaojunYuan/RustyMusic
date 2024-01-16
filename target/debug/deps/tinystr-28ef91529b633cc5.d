@@ -1,0 +1,11 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libtinystr-28ef91529b633cc5.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/macros.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/ascii.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/asciibyte.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/error.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/int_ops.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/unvalidated.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/tinystr-28ef91529b633cc5.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/macros.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/ascii.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/asciibyte.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/error.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/int_ops.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/unvalidated.rs
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/macros.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/ascii.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/asciibyte.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/error.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/int_ops.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.5/src/unvalidated.rs:

@@ -1,0 +1,11 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libsocket2-38137dbc342c38e4.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sockaddr.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/socket.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sockref.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sys/unix.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libsocket2-38137dbc342c38e4.rlib: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sockaddr.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/socket.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sockref.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sys/unix.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/socket2-38137dbc342c38e4.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sockaddr.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/socket.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sockref.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sys/unix.rs
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sockaddr.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/socket.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sockref.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.5/src/sys/unix.rs:

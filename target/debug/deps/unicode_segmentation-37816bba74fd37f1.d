@@ -1,0 +1,9 @@
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/libunicode_segmentation-37816bba74fd37f1.rmeta: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/grapheme.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/sentence.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/word.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/tables.rs
+
+/Users/brianyuan/Developer/rust/RustyMusic/target/debug/deps/unicode_segmentation-37816bba74fd37f1.d: /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/lib.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/grapheme.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/sentence.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/word.rs /Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/tables.rs
+
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/lib.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/grapheme.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/sentence.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/word.rs:
+/Users/brianyuan/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/tables.rs:
