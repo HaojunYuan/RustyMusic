@@ -24,16 +24,16 @@ impl Default for Player {
 }
 
 impl Player {
-    pub fn scan_mp3s(&mut self) {
-        if let Ok(songs) = std::fs::read_dir(&self.mp3_folder) {
-            self.songs = songs.map(|f| f.unwrap().path()).collect();
-        }
-    }
-
     pub fn setup_audio(&mut self) {
         let (stream, stream_handle) = OutputStream::try_default().unwrap();
         self.stream = Some(stream);
         self.sink = Some(Sink::try_new(&stream_handle).unwrap());
+    }
+
+    pub fn scan_mp3s(&mut self) {
+        if let Ok(songs) = std::fs::read_dir(&self.mp3_folder) {
+            self.songs = songs.map(|f| f.unwrap().path()).collect();
+        }
     }
 
     pub fn read_file(&self, file_path: &PathBuf) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
