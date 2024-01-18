@@ -32,7 +32,19 @@ impl Player {
 
     pub fn scan_mp3s(&mut self) {
         if let Ok(songs) = std::fs::read_dir(&self.mp3_folder) {
-            self.songs = songs.map(|f| f.unwrap().path()).collect();
+            self.songs = songs
+                .filter_map(|entry| {
+                    if let Ok(file) = entry {
+                        let path = file.path();
+                        if let Some(extension) = path.extension() {
+                            if extension.to_string_lossy().to_lowercase() == "mp3" {
+                                return Some(path);
+                            }
+                        }
+                    }
+                    None
+                })
+                .collect();
         }
     }
 
