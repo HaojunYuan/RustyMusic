@@ -17,30 +17,14 @@ This is a simple music player written in Rust using the rodio library.
 2. Navigate to the project directory:
 
    ```bash
-   cd rust-music-player
+   cd RustyMusic
    ```
 
-3. Build the project:
+3. Run the project:
 
    ```bash
-   cargo build
+   cargo run
    ```
-
-## Usage
-
-To play a music file, use the following command:
-
-```bash
-cargo run -- "path/to/your/music/file.mp3"
-```
-
-## Example
-
-```bash
-cargo run -- "Keshi - summer.mp3"
-```
-
-This will play the "Keshi - summer.mp3" file in the command line.
 
 ## Contributing
 
